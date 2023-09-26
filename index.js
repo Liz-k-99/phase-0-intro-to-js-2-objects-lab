@@ -11,14 +11,14 @@ const updateEmployeeWithKeyAndValue=(employee, key, value)=>{
         [key]: value
     }
 };
-updateEmployeeWithKeyAndValue("Sam", "12 Broadway");
+//updateEmployeeWithKeyAndValue("Sam", "12 Broadway");
 
 const destructivelyUpdateEmployeeWithKeyAndValue = (employee, key, value) => {
 
     employee[key]=value;
     return employee;
 };     
-destructivelyDeleteFromEmployeeByKey("Sam", "12 Broadway");   
+//destructivelyDeleteFromEmployeeByKey("Sam", "12 Broadway");   
           
 const deleteFromEmployeeByKey = (employee, key) => {
 
@@ -27,7 +27,7 @@ const deleteFromEmployeeByKey = (employee, key) => {
     return newEmployee;
 
 };
-const newEmployee = deleteFromEmployeeByKey(employee, 'name', 'streetAddress');
+//const newEmployee = deleteFromEmployeeByKey(employee, 'name', 'streetAddress');
 
 const destructivelyDeleteFromEmployeeByKey = (employee, key) => {
     
@@ -35,4 +35,4 @@ const destructivelyDeleteFromEmployeeByKey = (employee, key) => {
     return employee;
     
 };
-destructivelyDeleteFromEmployeeByKey(employee.key);
+//destructivelyDeleteFromEmployeeByKey(employee.key);
